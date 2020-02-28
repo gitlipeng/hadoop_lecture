@@ -23,6 +23,8 @@ public class WcDriver {
 		job.setMapperClass(WcMapper.class);
 		job.setReducerClass(WcReducer.class);
 
+        job.setCombinerClass(WcReducer.class);
+
 		// 4 设置mapper输出类型
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
