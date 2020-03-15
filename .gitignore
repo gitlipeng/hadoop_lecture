@@ -1,1 +1,6 @@
 target
+.idea
+*.iml
+*.log
+transaction-logs
+pom.xml.versionsBackup

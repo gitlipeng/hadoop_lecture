@@ -1,1 +1,5 @@
+com\flume\MySource.class
 com\hive\Lower.class
+com\flume\mysql\SQLSourceHelper.class
+com\flume\MySink.class
+com\flume\mysql\SQLSource.class
